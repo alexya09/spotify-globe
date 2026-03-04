@@ -1,5 +1,5 @@
 const GEOJSON_URL = 'https://raw.githubusercontent.com/vasturiano/globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson';
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://spotify-globe-api-r93m.onrender.com';
 
 const card = document.getElementById('card-spotify');
 const nomePaisEl = document.getElementById('pais-nome');
