@@ -1,0 +1,14 @@
+# Ambientes Virtuais
+venv/
+env/
+.venv/
+venvvenv/
+
+# Chaves Secretas (MUITO IMPORTANTE)
+.env
+
+# Arquivos de Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos temporários do macOS ou Windows

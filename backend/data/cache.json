@@ -1,0 +1,415 @@
+{
+    "AR": {
+        "country": "AR",
+        "track": "LA VILLA (w/ Kapo, Gangsta)",
+        "artist_name": "Ryan Castro",
+        "image": "https://i.scdn.co/image/ab67616d0000b27339290ff0d906d7a7af9e2059",
+        "spotify_url": "https://open.spotify.com/track/4zqFA9MOG86u7uugR8QFDU"
+    },
+    "AU": {
+        "country": "AU",
+        "track": "Man I Need",
+        "artist_name": "Olivia Dean",
+        "image": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
+        "spotify_url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
+    },
+    "AT": {
+        "country": "AT",
+        "track": "FEVER DREAM",
+        "artist_name": "Alex Warren",
+        "image": "https://i.scdn.co/image/ab67616d0000b273c3ec8beede5f539edd6af4d4",
+        "spotify_url": "https://open.spotify.com/track/7ogpGbKc4Io6NCU6ydxXwZ"
+    },
+    "BE": {
+        "country": "BE",
+        "track": "DtMF",
+        "artist_name": "Bad Bunny",
+        "image": "https://i.scdn.co/image/ab67616d0000b273bbd45c8d36e0e045ef640411",
+        "spotify_url": "https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya"
+    },
+    "BO": {
+        "country": "BO",
+        "track": "Cuando No Era Cantante (w/ Yung Beef)",
+        "artist_name": "El Bogueto",
+        "image": "https://i.scdn.co/image/ab67616d0000b27315110c9ad66e065592cc3496",
+        "spotify_url": "https://open.spotify.com/track/44xDy4h27s4ENaC8fKnCoC"
+    },
+    "BR": {
+        "country": "BR",
+        "track": "Posso Até Não Te Dar Flores (w/ MC Meno K, MC Ryan SP, Mc Jacaré, DJ DAVI DOGDOG)",
+        "artist_name": "DJ Japa NK",
+        "image": "https://i.scdn.co/image/ab67616d0000b27310f008e8b5fda6a55bcb8cd7",
+        "spotify_url": "https://open.spotify.com/track/4G7bbgD2DHORU4frrWoCXp"
+    },
+    "BG": {
+        "country": "BG",
+        "track": "Катинара",
+        "artist_name": "SIMONA",
+        "image": "https://i.scdn.co/image/ab67616d0000b2734bdec4a8cdf51efb4db3444e",
+        "spotify_url": "https://open.spotify.com/track/07semdYzIbyRJ28XhhPA7I"
+    },
+    "CA": {
+        "country": "CA",
+        "track": "Stateside + Zara Larsson (w/ Zara Larsson)",
+        "artist_name": "PinkPantheress",
+        "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+        "spotify_url": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
+    },
+    "CL": {
+        "country": "CL",
+        "track": "DUBAI (w/ Jairo Vera, Gittobeatz)",
+        "artist_name": "Jere Klein",
+        "image": "https://i.scdn.co/image/ab67616d0000b273719cd152fd09b2fbc5982836",
+        "spotify_url": "https://open.spotify.com/track/19AXdmWfIDChkG3Yw4We41"
+    },
+    "CO": {
+        "country": "CO",
+        "track": "Las Muñequitas (w/ El Americano 4KT)",
+        "artist_name": "Mr Plata",
+        "image": "https://i.scdn.co/image/ab67616d0000b27398bac645e1353af5c86dd595",
+        "spotify_url": "https://open.spotify.com/track/4nJJCRYru4QQakCiUA155f"
+    },
+    "CR": {
+        "country": "CR",
+        "track": "LA VILLA (w/ Kapo, Gangsta)",
+        "artist_name": "Ryan Castro",
+        "image": "https://i.scdn.co/image/ab67616d0000b27339290ff0d906d7a7af9e2059",
+        "spotify_url": "https://open.spotify.com/track/4zqFA9MOG86u7uugR8QFDU"
+    },
+    "CZ": {
+        "country": "CZ",
+        "track": "FEVER DREAM",
+        "artist_name": "Alex Warren",
+        "image": "https://i.scdn.co/image/ab67616d0000b273c3ec8beede5f539edd6af4d4",
+        "spotify_url": "https://open.spotify.com/track/7ogpGbKc4Io6NCU6ydxXwZ"
+    },
+    "DK": {
+        "country": "DK",
+        "track": "Flue i et spind",
+        "artist_name": "APHACA",
+        "image": "https://i.scdn.co/image/ab67616d0000b273da68ea9cc43d36c732812015",
+        "spotify_url": "https://open.spotify.com/track/1pN93ulisXKKrrlgi17IxN"
+    },
+    "DO": {
+        "country": "DO",
+        "track": "Se Dejo Del Novio (w/ Leo RD)",
+        "artist_name": "Ezzy R",
+        "image": "https://i.scdn.co/image/ab67616d0000b2739ebaeb99d8a1ada6683b12ea",
+        "spotify_url": "https://open.spotify.com/track/1Xr3x1zElsBYlFzTvS60c8"
+    },
+    "EC": {
+        "country": "EC",
+        "track": "BAILE INoLVIDABLE",
+        "artist_name": "Bad Bunny",
+        "image": "https://i.scdn.co/image/ab67616d0000b273bbd45c8d36e0e045ef640411",
+        "spotify_url": "https://open.spotify.com/track/2lTm559tuIvatlT1u0JYG2"
+    },
+    "EG": {
+        "country": "EG",
+        "track": "Msh Awl Marra (w/ Ghaliaa)",
+        "artist_name": "Lege-Cy",
+        "image": "https://i.scdn.co/image/ab67616d0000b273c7fd0669297278546053809d",
+        "spotify_url": "https://open.spotify.com/track/3SEmjDFRMeQZLy2fsiL4q9"
+    },
+    "SV": {
+        "country": "SV",
+        "track": "Cuando No Era Cantante - Remix (w/ Anuel AA, Fuerza Regida, Yung Beef)",
+        "artist_name": "El Bogueto",
+        "image": "https://i.scdn.co/image/ab67616d0000b27376ca2bb969e79a911090df63",
+        "spotify_url": "https://open.spotify.com/track/2pbSCYzxrG0wa6qcj8IyiE"
+    },
+    "FI": {
+        "country": "FI",
+        "track": "Liekinheitin (w/ Pete Parkkonen)",
+        "artist_name": "Linda Lampenius",
+        "image": "https://i.scdn.co/image/ab67616d0000b27331b8bf2a4d6fc807e577cb78",
+        "spotify_url": "https://open.spotify.com/track/7BQzDFHJHEbuShopGreqNQ"
+    },
+    "FR": {
+        "country": "FR",
+        "track": "melodrama (w/ Theodora)",
+        "artist_name": "disiz",
+        "image": "https://i.scdn.co/image/ab67616d0000b273ab4c374f87394ca144d2e00a",
+        "spotify_url": "https://open.spotify.com/track/1jNE8NeEbkoZyJIWWdZ0h7"
+    },
+    "DE": {
+        "country": "DE",
+        "track": "Lush Life",
+        "artist_name": "Zara Larsson",
+        "image": "https://i.scdn.co/image/ab67616d0000b273aa82525b9cca69ba27d385b7",
+        "spotify_url": "https://open.spotify.com/track/1rIKgCH4H52lrvDcz50hS8"
+    },
+    "GR": {
+        "country": "GR",
+        "track": "AMAZING - Remix (w/ RACK)",
+        "artist_name": "SIDARTA",
+        "image": "https://i.scdn.co/image/ab67616d0000b273e9fbbd6f73f23d9f3b5ed8d6",
+        "spotify_url": "https://open.spotify.com/track/02nJkLtlP5xW1D5p0QBJco"
+    },
+    "GT": {
+        "country": "GT",
+        "track": "Pvta Luna",
+        "artist_name": "Neton Vega",
+        "image": "https://i.scdn.co/image/ab67616d0000b2730c3ba1d7cd1468c7e5a2ddda",
+        "spotify_url": "https://open.spotify.com/track/33MeEaRCeIQMSRyFTr5ZJU"
+    },
+    "HN": {
+        "country": "HN",
+        "track": "KOKO",
+        "artist_name": "Omar Courtz",
+        "image": "https://i.scdn.co/image/ab67616d0000b27390af5246adcaa93acb721c17",
+        "spotify_url": "https://open.spotify.com/track/1tz7RZirwiuaJw2p0jbdHb"
+    },
+    "HU": {
+        "country": "HU",
+        "track": "Jól leszek újra (w/ DESH)",
+        "artist_name": "Nagy Bogi",
+        "image": "https://i.scdn.co/image/ab67616d0000b2737fd6f68a4620600fdbaa3bda",
+        "spotify_url": "https://open.spotify.com/track/2DUQVPD8RtAcVZGzabRezv"
+    },
+    "IS": {
+        "country": "IS",
+        "track": "Týnda kynslóðin (w/ Alaska1867, Gross)",
+        "artist_name": "AL0R1AN",
+        "image": "https://i.scdn.co/image/ab67616d0000b273e10d4bb98047b68b12adfcb8",
+        "spotify_url": "https://open.spotify.com/track/7IFuCdfzWR9bKgIoOqJE4j"
+    },
+    "IN": {
+        "country": "IN",
+        "track": "Gehra Hua (w/ Arijit Singh, Irshad Kamil, Armaan Khan)",
+        "artist_name": "Shashwat Sachdev",
+        "image": "https://i.scdn.co/image/ab67616d0000b273223959c7eed1c5ea8a5a09eb",
+        "spotify_url": "https://open.spotify.com/track/72EW32eRMEnrHY4ZJf2Z96"
+    },
+    "ID": {
+        "country": "ID",
+        "track": "kota ini tak sama tanpamu",
+        "artist_name": "Nadhif Basalamah",
+        "image": "https://i.scdn.co/image/ab67616d0000b273f3e3f888fbfcc916ecce50a9",
+        "spotify_url": "https://open.spotify.com/track/13CwOTXUgBugeBByE9oIWb"
+    },
+    "IE": {
+        "country": "IE",
+        "track": "iloveitiloveitiloveit",
+        "artist_name": "Bella Kay",
+        "image": "https://i.scdn.co/image/ab67616d0000b273e74e15fe75e80ea69f38a680",
+        "spotify_url": "https://open.spotify.com/track/5IMpnpD0tQVcqWlVIgtAtV"
+    },
+    "IL": {
+        "country": "IL",
+        "track": "כולם גנבים",
+        "artist_name": "Osher Cohen",
+        "image": "https://i.scdn.co/image/ab67616d0000b27392dd40f2b1fbdc24e72f2b71",
+        "spotify_url": "https://open.spotify.com/track/7IYAf32MmX7oCqgnGNT3g8"
+    },
+    "IT": {
+        "country": "IT",
+        "track": "OSSESSIONE",
+        "artist_name": "Samurai Jay",
+        "image": "https://i.scdn.co/image/ab67616d0000b2734305c86a243ca7e7db9d710c",
+        "spotify_url": "https://open.spotify.com/track/63sQFPGkKfzcK5qEZVefpu"
+    },
+    "JP": {
+        "country": "JP",
+        "track": "Don’t Say You Love Me",
+        "artist_name": "Jin",
+        "image": "https://i.scdn.co/image/ab67616d0000b27389228504f700641956e29f5d",
+        "spotify_url": "https://open.spotify.com/track/27xkOIER6uDLKALIelHylZ"
+    },
+    "MY": {
+        "country": "MY",
+        "track": "Risk It All",
+        "artist_name": "Bruno Mars",
+        "image": "https://i.scdn.co/image/ab67616d0000b2731cc6f24606517f854014ca69",
+        "spotify_url": "https://open.spotify.com/track/5y2ijHECwFYWqcAHKTZgzD"
+    },
+    "MX": {
+        "country": "MX",
+        "track": "dopamina (w/ Tito Double P)",
+        "artist_name": "Peso Pluma",
+        "image": "https://i.scdn.co/image/ab67616d0000b2734555f9d48babadbd649ba713",
+        "spotify_url": "https://open.spotify.com/track/3KgHiAVuP88QoQs9CO4z1P"
+    },
+    "MA": {
+        "country": "MA",
+        "track": "MOON",
+        "artist_name": "Stormy",
+        "image": "https://i.scdn.co/image/ab67616d0000b273e040ca47b2f8046349ce4f49",
+        "spotify_url": "https://open.spotify.com/track/4FK1eYp1arE2jiuAgluOtt"
+    },
+    "NL": {
+        "country": "NL",
+        "track": "Lekker voor je",
+        "artist_name": "Lil Kleine",
+        "image": "https://i.scdn.co/image/ab67616d0000b273fafb070670dd61fc7bf1936c",
+        "spotify_url": "https://open.spotify.com/track/4ElhIoBu7sQuLvvP7fhAzq"
+    },
+    "NZ": {
+        "country": "NZ",
+        "track": "Man I Need",
+        "artist_name": "Olivia Dean",
+        "image": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
+        "spotify_url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
+    },
+    "NI": {
+        "country": "NI",
+        "track": "DtMF",
+        "artist_name": "Bad Bunny",
+        "image": "https://i.scdn.co/image/ab67616d0000b273bbd45c8d36e0e045ef640411",
+        "spotify_url": "https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya"
+    },
+    "NO": {
+        "country": "NO",
+        "track": "Magnetic",
+        "artist_name": "Bausa",
+        "image": "https://i.scdn.co/image/ab67616d0000b273158cbe80b9b9573b46d2b50f",
+        "spotify_url": "https://open.spotify.com/track/4hFDFmMnSYZ32ssqNUOCjt"
+    },
+    "PA": {
+        "country": "PA",
+        "track": "Fala Fala",
+        "artist_name": "Andiex",
+        "image": "https://i.scdn.co/image/ab67616d0000b273bc44df08e9e714949036431e",
+        "spotify_url": "https://open.spotify.com/track/0cMp5NVmR9NoqEis5LKouP"
+    },
+    "PY": {
+        "country": "PY",
+        "track": "Cuando No Era Cantante - Remix (w/ Anuel AA, Fuerza Regida, Yung Beef)",
+        "artist_name": "El Bogueto",
+        "image": "https://i.scdn.co/image/ab67616d0000b27376ca2bb969e79a911090df63",
+        "spotify_url": "https://open.spotify.com/track/2pbSCYzxrG0wa6qcj8IyiE"
+    },
+    "PE": {
+        "country": "PE",
+        "track": "BAILE INoLVIDABLE",
+        "artist_name": "Bad Bunny",
+        "image": "https://i.scdn.co/image/ab67616d0000b273bbd45c8d36e0e045ef640411",
+        "spotify_url": "https://open.spotify.com/track/2lTm559tuIvatlT1u0JYG2"
+    },
+    "PH": {
+        "country": "PH",
+        "track": "Pag-Ibig ay Kanibalismo II",
+        "artist_name": "fitterkarma",
+        "image": "https://i.scdn.co/image/ab67616d0000b273796442914fd83d47da3242a9",
+        "spotify_url": "https://open.spotify.com/track/410fyfFghBsxNu45LiNJ24"
+    },
+    "PL": {
+        "country": "PL",
+        "track": "FRISBEE (w/ BNP)",
+        "artist_name": "Sentino",
+        "image": "https://i.scdn.co/image/ab67616d0000b2737d7bf17c855b34e993f24749",
+        "spotify_url": "https://open.spotify.com/track/5U501QvKEdHNON4LGFAhvj"
+    },
+    "PT": {
+        "country": "PT",
+        "track": "Posso Até Não Te Dar Flores (w/ MC Meno K, MC Ryan SP, Mc Jacaré, DJ DAVI DOGDOG)",
+        "artist_name": "DJ Japa NK",
+        "image": "https://i.scdn.co/image/ab67616d0000b27310f008e8b5fda6a55bcb8cd7",
+        "spotify_url": "https://open.spotify.com/track/4G7bbgD2DHORU4frrWoCXp"
+    },
+    "SA": {
+        "country": "SA",
+        "track": "Envolver",
+        "artist_name": "Anitta",
+        "image": "https://i.scdn.co/image/ab67616d0000b273d3bd4bf80f1464a02f605b62",
+        "spotify_url": "https://open.spotify.com/track/3FkeNbs9Zeiqkr3WkbOiGp"
+    },
+    "SG": {
+        "country": "SG",
+        "track": "Don’t Say You Love Me",
+        "artist_name": "Jin",
+        "image": "https://i.scdn.co/image/ab67616d0000b27389228504f700641956e29f5d",
+        "spotify_url": "https://open.spotify.com/track/27xkOIER6uDLKALIelHylZ"
+    },
+    "ZA": {
+        "country": "ZA",
+        "track": "UKHETHE MINA",
+        "artist_name": "Ntencane",
+        "image": "https://i.scdn.co/image/ab67616d0000b27392456f3263e15da8d4f1f0dc",
+        "spotify_url": "https://open.spotify.com/track/35nJgry48wr2AaxRfouhfD"
+    },
+    "ES": {
+        "country": "ES",
+        "track": "NI BORRACHO",
+        "artist_name": "Quevedo",
+        "image": "https://i.scdn.co/image/ab67616d0000b273d1a64b70b1c71dfc675f8ff6",
+        "spotify_url": "https://open.spotify.com/track/3ltpc2goYCfKT8AbWwqQvc"
+    },
+    "SE": {
+        "country": "SE",
+        "track": "Delulu",
+        "artist_name": "Lilla Al-Fadji",
+        "image": "https://i.scdn.co/image/ab67616d0000b273cb5e95d5cd511be21c8f9b3f",
+        "spotify_url": "https://open.spotify.com/track/30xAneAHxuzOE7MPZ1mssU"
+    },
+    "CH": {
+        "country": "CH",
+        "track": "DtMF",
+        "artist_name": "Bad Bunny",
+        "image": "https://i.scdn.co/image/ab67616d0000b273bbd45c8d36e0e045ef640411",
+        "spotify_url": "https://open.spotify.com/track/3sK8wGT43QFpWrvNQsrQya"
+    },
+    "TW": {
+        "country": "TW",
+        "track": "Winter Ahead (w/ Park Hyo Shin)",
+        "artist_name": "V",
+        "image": "https://i.scdn.co/image/ab67616d0000b27316ba2a3622bd0d0d985e3234",
+        "spotify_url": "https://open.spotify.com/track/7G7mSV4BebkoHWwKTDvXu9"
+    },
+    "TH": {
+        "country": "TH",
+        "track": "กลัวว่าฉันจะไม่เสียใจ (Fear)",
+        "artist_name": "PURPEECH",
+        "image": "https://i.scdn.co/image/ab67616d0000b273d40ab8c072495fa960817cdd",
+        "spotify_url": "https://open.spotify.com/track/4ntIPuXf6DpvrZExXrn5QA"
+    },
+    "TR": {
+        "country": "TR",
+        "track": "YIN YANG",
+        "artist_name": "Motive",
+        "image": "https://i.scdn.co/image/ab67616d0000b2734be4edfeab6217f201b9146f",
+        "spotify_url": "https://open.spotify.com/track/3e0XM5ARlFVbWLfdR7zZvp"
+    },
+    "AE": {
+        "country": "AE",
+        "track": "Don’t Say You Love Me",
+        "artist_name": "Jin",
+        "image": "https://i.scdn.co/image/ab67616d0000b27389228504f700641956e29f5d",
+        "spotify_url": "https://open.spotify.com/track/27xkOIER6uDLKALIelHylZ"
+    },
+    "GB": {
+        "country": "GB",
+        "track": "Man I Need",
+        "artist_name": "Olivia Dean",
+        "image": "https://i.scdn.co/image/ab67616d0000b273e3d69e17dde129037a1f09e2",
+        "spotify_url": "https://open.spotify.com/track/1qbmS6ep2hbBRaEZFpn7BX"
+    },
+    "US": {
+        "country": "US",
+        "track": "Risk It All",
+        "artist_name": "Bruno Mars",
+        "image": "https://i.scdn.co/image/ab67616d0000b2731cc6f24606517f854014ca69",
+        "spotify_url": "https://open.spotify.com/track/5y2ijHECwFYWqcAHKTZgzD"
+    },
+    "UY": {
+        "country": "UY",
+        "track": "Puñaladas (w/ Amigo de Artistas, Tote)",
+        "artist_name": "Lauta",
+        "image": "https://i.scdn.co/image/ab67616d0000b273de0489bb178b9c1eebf1b4a1",
+        "spotify_url": "https://open.spotify.com/track/4AL4EamHEBKPpdcFRkYdXN"
+    },
+    "VE": {
+        "country": "VE",
+        "track": "Who",
+        "artist_name": "Jimin",
+        "image": "https://i.scdn.co/image/ab67616d0000b273f02c451189a709b9a952aaec",
+        "spotify_url": "https://open.spotify.com/track/7tI8dRuH2Yc6RuoTjxo4dU"
+    },
+    "VN": {
+        "country": "VN",
+        "track": "Seven (w/ Latto)",
+        "artist_name": "Jung Kook",
+        "image": "https://i.scdn.co/image/ab67616d0000b2736a0314aeb326cd922f77956f",
+        "spotify_url": "https://open.spotify.com/track/39mR7R6oZOa1K9deHnOKqE"
+    }
+}
