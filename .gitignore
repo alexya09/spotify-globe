@@ -4,11 +4,11 @@ env/
 .venv/
 venvvenv/
 
-# Chaves Secretas (MUITO IMPORTANTE)
+# Chaves Secretas
 .env
 
 # Arquivos de Cache do Python
 __pycache__/
 *.pyc
 
-# Arquivos temporários do macOS ou Windows
+

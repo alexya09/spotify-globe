@@ -19,11 +19,9 @@ def get_all_top_1_from_official_charts(country_codes):
             response.encoding = 'utf-8'
 
             soup = BeautifulSoup(response.text, 'html.parser')
-            # Pega a primeira linha da tabela principal
             first_row = soup.select_one('table.sortable tbody tr')
             
             if first_row:
-                # O texto vem como "Artista - Música"
                 full_text = first_row.select_one('td.text').get_text()
                 if " - " in full_text:
                     artist_name, track_name = full_text.split(" - ", 1)
@@ -35,8 +33,8 @@ def get_all_top_1_from_official_charts(country_codes):
                     "artist": artist_name.strip(),
                     "track": track_name.strip()
                 }
-                print(f"✅ {code.upper()} carregado: {artist_name.strip()}")
+                print(f" {code.upper()} carregado: {artist_name.strip()}")
         except Exception as e:
-            print(f"❌ Erro em {code.upper()}: {e}")
+            print(f" Erro em {code.upper()}: {e}")
 
     return results

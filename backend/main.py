@@ -35,15 +35,15 @@ async def update_cache_daily():
             new_cache[country] = {
                 "country": country,
                 "track": data["track"],
-                "artist_name": data["artist"], # Mantemos o nome do artista para exibir no frontend
-                "image": spotify_data["image"], # Capa do Álbum
-                "spotify_url": spotify_data["spotify_url"] # Link da Música
+                "artist_name": data["artist"],
+                "image": spotify_data["image"],
+                "spotify_url": spotify_data["spotify_url"]
             }
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(new_cache, f, ensure_ascii=False, indent=4)
             
         print("Cache atualizado com sucesso!")
-        await asyncio.sleep(86400) # Espera 24h
+        await asyncio.sleep(86400)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):

@@ -18,7 +18,7 @@ router = APIRouter()
 SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize"
 SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
 
-# 1️⃣ Rota de login
+#  Rota de login
 @router.get("/login")
 def login():
     scope = "playlist-read-private playlist-read-collaborative"
@@ -34,7 +34,7 @@ def login():
     return RedirectResponse(auth_url)
 
 
-# 2️⃣ Callback
+# Callback
 @router.get("/callback")
 def callback(code: str):
     auth_string = f"{CLIENT_ID}:{CLIENT_SECRET}"
