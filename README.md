@@ -7,7 +7,7 @@ Um globo interativo em 3D que permite explorar a música número 1 mais tocada n
 ![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-yellow)
 ![Deploy](https://img.shields.io/badge/Deploy-Render_%26_GitHub_Pages-purple)
 
-🔗 **[Acesse a Aplicação ao Vivo aqui](https://alexya09.github.io/spotify-globe/)** *(Substitua por seu link real, com ou sem /frontend/)*
+🔗 **[Acesse a Aplicação ao Vivo aqui](https://alexya09.github.io/spotify-globe/)** 
 
 ---
 
