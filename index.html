@@ -22,9 +22,265 @@
   <meta charset="UTF-8">
   <title>Spotify Global 3D</title>
   <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" type="image/svg+xml">
-  <style> body { margin: 0; overflow: hidden; } </style>
+  <style> 
+    body { 
+      margin: 0; 
+      overflow: hidden; 
+    } 
+  </style>
   
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Loading Screen Styles -->
+  <style>
+    #loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      gap: 30px;
+    }
+
+    .loading-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .spotify-globe-loader {
+      width: 120px;
+      height: 120px;
+      position: relative;
+      animation: rotateGlobe 8s linear infinite;
+    }
+
+    @keyframes rotateGlobe {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .globe-sphere {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #1DB954, #13853a);
+      position: relative;
+      box-shadow: 0 0 40px rgba(29, 185, 84, 0.6), inset -2px -2px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .globe-dot {
+      width: 8px;
+      height: 8px;
+      background: #1DB954;
+      border-radius: 50%;
+      position: absolute;
+      animation: pulse-dot 1.5s ease-in-out infinite;
+    }
+
+    .globe-dot:nth-child(1) {
+      top: 20%; left: 25%;
+      animation-delay: 0s;
+    }
+
+    .globe-dot:nth-child(2) {
+      top: 50%; right: 15%;
+      animation-delay: 0.3s;
+    }
+
+    .globe-dot:nth-child(3) {
+      bottom: 25%; left: 15%;
+      animation-delay: 0.6s;
+    }
+
+    .globe-dot:nth-child(4) {
+      top: 15%; right: 20%;
+      animation-delay: 0.9s;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 0.6;
+      }
+      50% {
+        transform: scale(1.3);
+        opacity: 1;
+      }
+    }
+
+    .loading-rings {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 140px;
+      height: 140px;
+    }
+
+    .ring {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 2px solid transparent;
+      border-radius: 50%;
+      border-top-color: #1DB954;
+      animation: spin 3s linear infinite;
+      top: 0;
+      left: 0;
+    }
+
+    .ring:nth-child(1) {
+      animation-duration: 3s;
+    }
+
+    .ring:nth-child(2) {
+      animation-duration: 5s;
+      animation-direction: reverse;
+      border-top-color: #2ed464;
+      width: 110%;
+      height: 110%;
+      left: -5%;
+      top: -5%;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .loading-text {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .loading-title {
+      color: #1DB954;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    .loading-subtitle {
+      color: #b3b3b3;
+      font-size: 14px;
+      margin: 8px 0 0 0;
+      font-weight: 400;
+    }
+
+    .loading-dots {
+      height: 8px;
+      display: flex;
+      gap: 6px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      background: #1DB954;
+      border-radius: 50%;
+      animation: bounce 1.4s infinite;
+    }
+
+    .dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+        opacity: 0.8;
+      }
+      50% {
+        transform: translateY(-10px);
+        opacity: 1;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .spotify-globe-loader {
+        width: 90px;
+        height: 90px;
+      }
+
+      .loading-rings {
+        width: 110px;
+        height: 110px;
+      }
+
+      .ring:nth-child(2) {
+        width: 110%;
+        height: 110%;
+        left: -5%;
+        top: -5%;
+      }
+
+      .loading-title {
+        font-size: 24px;
+      }
+
+      .loading-subtitle {
+        font-size: 12px;
+      }
+
+      #loading-screen {
+        gap: 20px;
+      }
+
+      .loading-container {
+        gap: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .spotify-globe-loader {
+        width: 70px;
+        height: 70px;
+      }
+
+      .loading-rings {
+        width: 85px;
+        height: 85px;
+      }
+
+      .loading-title {
+        font-size: 20px;
+      }
+
+      .loading-subtitle {
+        font-size: 11px;
+      }
+
+      .globe-dot {
+        width: 6px;
+        height: 6px;
+      }
+
+      #loading-screen {
+        gap: 15px;
+      }
+
+      .loading-container {
+        gap: 15px;
+      }
+    }
+  </style>
   
   <script src="//unpkg.com/globe.gl"></script>
 </head>
@@ -33,6 +289,33 @@
   <a href="https://open.spotify.com" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" id="logo-spotify-canto" alt="Logo do Spotify">
 </a>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loading-container">
+      <div class="spotify-globe-loader">
+        <div class="loading-rings">
+          <div class="ring"></div>
+          <div class="ring"></div>
+        </div>
+        <div class="globe-sphere">
+          <div class="globe-dot"></div>
+          <div class="globe-dot"></div>
+          <div class="globe-dot"></div>
+          <div class="globe-dot"></div>
+        </div>
+      </div>
+      <div class="loading-text">
+        <h1 class="loading-title">Spotify Global</h1>
+        <p class="loading-subtitle">Carregando dados musicais...</p>
+        <div class="loading-dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div id="globeViz"></div>
 

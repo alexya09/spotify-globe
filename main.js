@@ -9,8 +9,29 @@ const musicaNomeEl = document.getElementById('musica-nome');
 const capaAlbumEl = document.getElementById('capa-album');
 const spotifyLinkEl = document.getElementById('spotify-link');
 
+// Funções de Loading
+function mostrarLoading() {
+    const loadingScreen = document.getElementById('loading-screen');
+    if (loadingScreen) {
+        loadingScreen.style.display = 'flex';
+    }
+}
+
+function esconderLoading() {
+    const loadingScreen = document.getElementById('loading-screen');
+    if (loadingScreen) {
+        loadingScreen.style.opacity = '1';
+        loadingScreen.style.transition = 'opacity 0.6s ease-out';
+        loadingScreen.style.opacity = '0';
+        setTimeout(() => {
+            loadingScreen.style.display = 'none';
+        }, 600);
+    }
+}
+
 async function iniciarApp() {
     try {
+        mostrarLoading();
         console.log("⏳ Iniciando carregamento...");
 
         const geoJsonReq = fetch(GEOJSON_URL).then(res => res.json());
@@ -58,9 +79,11 @@ async function iniciarApp() {
         });
 
         desenharGlobo(countries);
+        esconderLoading();
 
     } catch (erro) {
         console.error(" Erro fatal:", erro);
+        esconderLoading();
     }
 }
 
